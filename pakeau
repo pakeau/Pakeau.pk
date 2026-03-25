@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pakeau - Premium Water</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(to right, #0a4fa3, #6aa9ff);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.tagline {
+    font-size: 16px;
+}
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+
+.hero h2 {
+    color: #0a4fa3;
+}
+
+/* Products */
+
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.products h2 {
+    color: #0a4fa3;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+
+.contact {
+    background: #e9f2ff;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #0a4fa3;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* Footer */
+
+footer {
+    background: #0a4fa3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Pakeau</h1>
+    <p class="tagline">Pure by Nature</p>
+</header>
+
+<section class="hero">
+    <h2>Premium Drinking Water</h2>
+    <p>Delivering pure, safe, and hygienic water across Pakistan.</p>
+</section>
+
+<section class="products">
+    <h2>Our Bottle Sizes</h2>
+
+    <div class="product-list">
+
+        <div class="product">
+            <h3>250ml</h3>
+            <p>Small Bottle</p>
+        </div>
+
+        <div class="product">
+            <h3>500ml</h3>
+            <p>Regular Bottle</p>
+        </div>
+
+        <div class="product">
+            <h3>1 Liter</h3>
+            <p>Family Size</p>
+        </div>
+
+        <div class="product">
+            <h3>1.5 Liter</h3>
+            <p>Large Bottle</p>
+        </div>
+
+        <div class="product">
+            <h3>19 Liter</h3>
+            <p>Water Gallon</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact">
+    <h2>Contact Us for Your Order</h2>
+
+    <p><strong>Phone:</strong> 00923174572433</p>
+    <p><strong>Email:</strong> nabeelchand701@gmail.com</p>
+    <p><strong>Address:</strong> Pakistan</p>
+
+    <a class="whatsapp-btn"
+       href="https://wa.me/923174572433"
+       target="_blank">
+       Order on WhatsApp
+    </a>
+
+</section>
+
+<footer>
+    <p>© 2026 Pakeau - Premium Water Pakistan</p>
+</footer>
+
+</body>
+</html>
